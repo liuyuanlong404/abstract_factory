@@ -24,11 +24,11 @@ public class QiniuOssVideo implements OssVideo {
 
     @Override
     public String get720P() {
-        return "http://oss.aliyun.com/*********_720P.mp4";
+        return "http://oss.qiniu.com/*********_720P.mp4";
     }
 
     @Override
     public String get1080P() {
-        return "http://oss.aliyun.com/*********_1080P.mp4";
+        return "http://oss.qiniu.com/*********_1080P.mp4";
     }
 }
